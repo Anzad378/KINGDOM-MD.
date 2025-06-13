@@ -112,23 +112,23 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, ELLY-TECH Legend! ✨*
+  let up = `*✨ Hello, KINGDOM MD Legend! ✨*
 
-╭─〔 *🤖 ELLY-TECH BOT* 〕  
-├─▸ *Simplicity. Speed. Power. BY elly |*  
+╭─〔 *🤖 KINGDOM MD BOT* 〕  
+├─▸ *Simplicity. Speed. Power. BY KINGDOM MD|*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing ELLY-TECH!*
+*❤️ Thank you for Choosing KINGDOM MD!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VayUCIBEQIawHy6i010M) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029Vb6CC2dB4hdPp1CrYv0f) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Kidorganic08/ELLY-XMD)!  
+│   Star Us [**Here**](https://github.com/Anzad378/KINGD0M-MD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY ELLY-TECH_`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/8otj3h.jpg` }, caption: up })
+> _© MADE BY KINGDOM MD_`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0kwukb.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -213,7 +213,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('255683514508', '255683514508', '255683514508');
+    const jawad = ('255654667145', '255654667145', '255654667145');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -260,7 +260,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("255683514508")){
+  if(senderNumber.includes("255654667145")){
   if(isReact) return
   m.react( )
    }
@@ -783,7 +783,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("ELLY-TECH IS  STARTED ✅");
+  res.send("KINGDOM MD IS  STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
