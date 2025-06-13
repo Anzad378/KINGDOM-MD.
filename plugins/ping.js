@@ -32,7 +32,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *ELLY-XMD SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
+        const text = `> * KINGDOM MD SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
@@ -41,8 +41,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363390923760286@newsletter',
-                    newsletterName: "elly tech",
+                    newsletterJid: '120363401981451001@newsletter',
+                    newsletterName: "KINGDOM MD",
                     serverMessageId: 143
                 }
             }
@@ -69,7 +69,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '*PINGING...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*☣️ ELLY-XMD SPEED : ${ping}ms*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*☣️ KINGDOM MD SPEED : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
