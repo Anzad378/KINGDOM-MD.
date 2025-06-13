@@ -47,8 +47,8 @@ _Reply to this message with 1 or 2 to download._`;
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363390923760286@newsletter',
-                newsletterName: 'ELLY TECH',
+                newsletterJid: '120363401981451001@newsletter',
+                newsletterName: 'KINGDOM MD',
                 serverMessageId: 143
             }
         };
@@ -148,8 +148,8 @@ _Reply with 1, 2 or 3 to this message to download the format you prefer._`;
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363390923760286@newsletter',
-                newsletterName: 'ELLY XMD',
+                newsletterJid: '120363401981451001@newsletter',
+                newsletterName: 'KINGDOM MD',
                 serverMessageId: 143
             }
         };
