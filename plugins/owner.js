@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/8otj3h.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *ELLY-XMD* 〕━━┈⊷
+            image: { url: 'https://files.catbox.moe/0kwukb.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *KINGDOM MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -44,8 +44,8 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363390923760286@newsletter',
-                    newsletterName: 'elly tech',
+                    newsletterJid: '120363401981451001@newsletter',
+                    newsletterName: 'KINGDOM MD',
                     serverMessageId: 143
                 }            
             }
