@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Kidorganic08/ELLY-XMD';
+    const githubRepoURL = 'https://github.com/Anzad378/KINGD0M-MD';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -172,15 +172,15 @@ ${repoData.description || 'No description provided'}
 
         // Send image with repo info
         await conn.sendMessage(from, {
-            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/8otj3h.jpg' },
+            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/0kwukb.jpg' },
             caption: selectedStyle,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363390923760286@newsletter',
-                    newsletterName: config.OWNER_NAME || 'Pk driller',
+                    newsletterJid: '120363401981451001@newsletter',
+                    newsletterName: config.OWNER_NAME || 'KINGDOM MD',
                     serverMessageId: 143
                 }
             }
